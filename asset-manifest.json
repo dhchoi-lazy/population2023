@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/population2023/static/css/main.afe02d77.css",
-    "main.js": "/population2023/static/js/main.cfb824cb.js",
+    "main.js": "/population2023/static/js/main.8299bd6c.js",
     "static/media/offset1966.csv": "/population2023/static/media/offset1966.e8924f21db1d87901b71.csv",
     "static/media/offset2000.csv": "/population2023/static/media/offset2000.ec3feb351fab78cc86bb.csv",
     "static/media/offset1980.csv": "/population2023/static/media/offset1980.3aa10e87b67cd255d51b.csv",
@@ -13,10 +13,10 @@
     "static/media/korea_map.geojson": "/population2023/static/media/korea_map.70189443b6055d2a3008.geojson",
     "index.html": "/population2023/index.html",
     "main.afe02d77.css.map": "/population2023/static/css/main.afe02d77.css.map",
-    "main.cfb824cb.js.map": "/population2023/static/js/main.cfb824cb.js.map"
+    "main.8299bd6c.js.map": "/population2023/static/js/main.8299bd6c.js.map"
   },
   "entrypoints": [
     "static/css/main.afe02d77.css",
-    "static/js/main.cfb824cb.js"
+    "static/js/main.8299bd6c.js"
   ]
 }
