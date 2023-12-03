@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     ),
     children: [
       {
-        path: "cartogram-sbs",
+        path: "/cartogram-sbs",
         element: (
           <App>
             <Cartogram bgColor={"black"} />
@@ -23,7 +23,7 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "cartogram-mbc",
+        path: "/cartogram-mbc",
         element: (
           <App>
             <Cartogram bgColor={"white"} />
