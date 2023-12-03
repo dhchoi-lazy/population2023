@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/dhchoi-lazy/population2013/static/css/main.afe02d77.css",
-    "main.js": "/dhchoi-lazy/population2013/static/js/main.af03b566.js",
-    "static/media/offset1966.csv": "/dhchoi-lazy/population2013/static/media/offset1966.e8924f21db1d87901b71.csv",
-    "static/media/offset2000.csv": "/dhchoi-lazy/population2013/static/media/offset2000.ec3feb351fab78cc86bb.csv",
-    "static/media/offset1980.csv": "/dhchoi-lazy/population2013/static/media/offset1980.3aa10e87b67cd255d51b.csv",
-    "static/media/offset2010.csv": "/dhchoi-lazy/population2013/static/media/offset2010.c9147244ce2ec63bdd69.csv",
-    "static/media/offset2020.csv": "/dhchoi-lazy/population2013/static/media/offset2020.708a3b935abb0177b86d.csv",
-    "static/media/offset1990.csv": "/dhchoi-lazy/population2013/static/media/offset1990.54b886c6adff4a7d50ce.csv",
-    "static/media/offset2023.csv": "/dhchoi-lazy/population2013/static/media/offset2023.d09e6665e62f21e2caec.csv",
-    "static/media/offsetdefault.csv": "/dhchoi-lazy/population2013/static/media/offsetdefault.646c97cd734a901afb4f.csv",
-    "static/media/korea_map.geojson": "/dhchoi-lazy/population2013/static/media/korea_map.70189443b6055d2a3008.geojson",
-    "static/media/logo.svg": "/dhchoi-lazy/population2013/static/media/logo.d3e1929ddf93a04b7ab688f4f456559f.svg",
-    "index.html": "/dhchoi-lazy/population2013/index.html",
-    "main.afe02d77.css.map": "/dhchoi-lazy/population2013/static/css/main.afe02d77.css.map",
-    "main.af03b566.js.map": "/dhchoi-lazy/population2013/static/js/main.af03b566.js.map"
+    "main.css": "/dhchoi-lazy/population2023/static/css/main.afe02d77.css",
+    "main.js": "/dhchoi-lazy/population2023/static/js/main.ea2f7d86.js",
+    "static/media/offset1966.csv": "/dhchoi-lazy/population2023/static/media/offset1966.e8924f21db1d87901b71.csv",
+    "static/media/offset2000.csv": "/dhchoi-lazy/population2023/static/media/offset2000.ec3feb351fab78cc86bb.csv",
+    "static/media/offset1980.csv": "/dhchoi-lazy/population2023/static/media/offset1980.3aa10e87b67cd255d51b.csv",
+    "static/media/offset2010.csv": "/dhchoi-lazy/population2023/static/media/offset2010.c9147244ce2ec63bdd69.csv",
+    "static/media/offset2020.csv": "/dhchoi-lazy/population2023/static/media/offset2020.708a3b935abb0177b86d.csv",
+    "static/media/offset1990.csv": "/dhchoi-lazy/population2023/static/media/offset1990.54b886c6adff4a7d50ce.csv",
+    "static/media/offset2023.csv": "/dhchoi-lazy/population2023/static/media/offset2023.d09e6665e62f21e2caec.csv",
+    "static/media/offsetdefault.csv": "/dhchoi-lazy/population2023/static/media/offsetdefault.646c97cd734a901afb4f.csv",
+    "static/media/korea_map.geojson": "/dhchoi-lazy/population2023/static/media/korea_map.70189443b6055d2a3008.geojson",
+    "static/media/logo.svg": "/dhchoi-lazy/population2023/static/media/logo.d3e1929ddf93a04b7ab688f4f456559f.svg",
+    "index.html": "/dhchoi-lazy/population2023/index.html",
+    "main.afe02d77.css.map": "/dhchoi-lazy/population2023/static/css/main.afe02d77.css.map",
+    "main.ea2f7d86.js.map": "/dhchoi-lazy/population2023/static/js/main.ea2f7d86.js.map"
   },
   "entrypoints": [
     "static/css/main.afe02d77.css",
-    "static/js/main.af03b566.js"
+    "static/js/main.ea2f7d86.js"
   ]
 }
