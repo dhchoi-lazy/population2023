@@ -1,7 +1,7 @@
 {
-  "name": "population2013",
+  "name": "population2023",
   "version": "0.1.0",
-  "homepage":"https://github.com/dhchoi-lazy/population2013",
+  "homepage":"https://github.com/dhchoi-lazy/population2023",
 
   "dependencies": {
     "@emotion/react": "^11.11.1",
