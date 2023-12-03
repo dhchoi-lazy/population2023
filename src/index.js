@@ -27,7 +27,7 @@ const router = createBrowserRouter(
   ],
   {
     // Setting the basename for all routes
-    basename: "/population2023",
+    // basename: "/population2023",
   }
 );
 
