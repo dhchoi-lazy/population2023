@@ -7,6 +7,7 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 
 const router = createBrowserRouter([
   {
+    path: "/",
     element: (
       <App>
         <Cartogram bgColor={"black"} />
