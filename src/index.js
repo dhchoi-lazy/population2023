@@ -8,7 +8,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 const router = createBrowserRouter(
   [
     {
-      path: "/population2023/cartogram-sbs",
+      path: "cartogram-sbs",
       element: (
         <App>
           <Cartogram bgColor={"black"} />
@@ -16,7 +16,7 @@ const router = createBrowserRouter(
       ),
     },
     {
-      path: "/population2023/cartogram-mbc",
+      path: "cartogram-mbc",
       element: (
         <App>
           <Cartogram bgColor={"white"} />
@@ -25,7 +25,7 @@ const router = createBrowserRouter(
     },
   ],
   {
-    basename: "/population2023",
+    basename: "/population2023/",
   }
 );
 
