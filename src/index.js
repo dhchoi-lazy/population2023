@@ -5,7 +5,6 @@ import App from "./App";
 import Cartogram from "./components/Cartogram";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-// Creating the router with the proper basename
 const router = createBrowserRouter(
   [
     {
@@ -26,8 +25,7 @@ const router = createBrowserRouter(
     },
   ],
   {
-    // Setting the basename for all routes
-    // basename: "/population2023",
+    basename: "/population2023",
   }
 );
 
