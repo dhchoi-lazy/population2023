@@ -24,9 +24,6 @@ const offsetData = {
   2020: offset2020,
   2023: offset2023,
 };
-function valuetext(value) {
-  return `${value}°C`;
-}
 
 const Cartogram = ({ bgColor }) => {
   const width = 1200;
@@ -45,7 +42,7 @@ const Cartogram = ({ bgColor }) => {
     .translate([width / 2, height / 2]);
   const pathn = geoPath().projection(null);
   const svgRef = useRef();
-  const [currentYearIndex, setCurrentYearIndex] = useState(0);
+
   const [polygon, setPolygon] = useState(null);
   const [projectedPolygon, setprojectedPolygon] = useState(null);
   const [sliderValue, setSliderValue] = React.useState(0); // Assuming 0 as default value
@@ -71,12 +68,10 @@ const Cartogram = ({ bgColor }) => {
       setprojectedPolygon(initPolygon);
       createButtons();
     });
-  }, []);
+  });
   function modifypoly(polyline, shift, delta) {
     const l1 = polyline.map(([x, y]) => [+x, +y]);
     const len = l1.length;
-    const resultarr = [];
-
     const xinterp = d3.scaleLinear();
     const yinterp = d3.scaleLinear();
 
@@ -235,14 +230,12 @@ const Cartogram = ({ bgColor }) => {
 
   // Function to handle map shift
   const mapShift = (n) => {
-    setCurrentYearIndex(n);
     mapTransition(n, polygon);
   };
 
   // Function to create buttons
   const createButtons = () => {
     const svg = d3.select(svgRef.current);
-
     svg
       .selectAll("g")
       .data([1, 2, 3, 4, 5, 6, 7, 8])
@@ -261,7 +254,7 @@ const Cartogram = ({ bgColor }) => {
   };
   document.body.style.backgroundColor = bgColor;
   const contraryColor = bgColor === "black" ? "white" : "black";
-  const metroColor = bgColor === "black" ? "black" : "#DCBFFF";
+  // const metroColor = bgColor === "black" ? "black" : "#DCBFFF";
   const strokeColor = bgColor === "black" ? "white" : "black";
 
   return (
@@ -275,7 +268,7 @@ const Cartogram = ({ bgColor }) => {
               style={{
                 stroke: strokeColor,
                 strokeWidth: 0.8,
-                fill: feature.properties.metro ? metroColor : bgColor,
+                fill: feature.properties.metro ? bgColor : bgColor,
               }}
             />
           ))}
