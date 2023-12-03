@@ -32,6 +32,9 @@ const router = createBrowserRouter([
       },
     ],
   },
+  {
+    basename: "/population2023",
+  },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
