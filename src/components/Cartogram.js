@@ -29,7 +29,7 @@ const Cartogram = ({ bgColor }) => {
   const width = 1200;
   const height = 800;
   const years = ["default", 1966, 1980, 1990, 2000, 2010, 2020, 2023];
-  const dur = 400;
+  const dur = 1200;
   const scaleFactorX = 1;
   const normalizationFactor = 0.05;
   const baseOffsetX = -660;

@@ -7,29 +7,19 @@ import { createHashRouter, RouterProvider, Outlet } from "react-router-dom";
 
 const router = createHashRouter([
   {
-    path: "/cartogram-sbs",
     element: (
       <App>
-        <Cartogram bgColor={"black"} />
         <Outlet />
       </App>
     ),
     children: [
       {
         path: "/cartogram-sbs",
-        element: (
-          <App>
-            <Cartogram bgColor={"black"} />
-          </App>
-        ),
+        element: <Cartogram bgColor={"black"} />,
       },
       {
         path: "/cartogram-mbc",
-        element: (
-          <App>
-            <Cartogram bgColor={"white"} />
-          </App>
-        ),
+        element: <Cartogram bgColor={"white"} />,
       },
     ],
   },
